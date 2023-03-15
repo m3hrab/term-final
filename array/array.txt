@@ -1,0 +1,8 @@
+Definition:
+An array in C is a collection of values of the same data type, stored in a contiguous block of memory. Each value in the array is identified by its index or position in the array, starting at 0.
+
+For example, here's how you can declare an array of integers in C:
+    
+    int myArray[5] = { 10, 20, 30, 40, 50 };
+
+This creates an array named numbers with five elements, each element containing an integer value. The elements can be accessed using their index, which starts from 0. For instance, numbers[0] refers to the first element, which is 1, and numbers[4] refers to the last element, which is 5.

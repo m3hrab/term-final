@@ -1,0 +1,22 @@
+Definitions:
+
+A pointer is a variable that stores the memory address of another variable. Pointers provide a way to manipulate and access memory directly, which can be useful for tasks such as dynamic memory allocation and passing arguments to functions by reference.
+
+Example:
+    int num = 10;   // Declare an integer variable
+    int *ptr = &num;   // Declare a pointer variable and initialize it with the address of num
+
+In this example, we first declare an integer variable called num and initialize it with the value 10. We then declare a pointer variable called ptr and initialize it with the address of num using the & operator.
+
+We can access the value of num through the pointer ptr by using the * operator, like this:
+
+    int value = *ptr;   // Assign the value of num to a new variable using the pointer ptr
+
+
+This assigns the value of num to a new variable called value by dereferencing the pointer ptr.
+We can also change the value of num through the pointer ptr by assigning a new value to the memory location it points to, like this:
+    
+    *ptr = 20;   // Change the value of num to 20 using the pointer ptr
+This changes the value of num to 20 by dereferencing the pointer ptr and assigning a new value to the memory location it points to.
+
+Pointers can be used for a variety of purposes in C, including dynamic memory allocation, passing arguments to functions by reference, and more. They're an important concept in C programming, and mastering them can make your code more efficient and powerful.

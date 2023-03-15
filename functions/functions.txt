@@ -1,0 +1,30 @@
+Definition: A function is a block of code that performs a specific task. Functions provide a way to modularize code and make it more organized and reusable.
+
+Syntax: 
+
+    return_type function_name(parameter_list) {
+        // function body
+        // ...
+        // return statement (if applicable)
+    }
+
+
+Let's break down each part of the syntax:
+
+return_type: This is the data type of the value that the function returns, or void if the function doesn't return a value.
+function_name: This is the name of the function.
+parameter_list: This is a comma-separated list of parameters that the function takes as input. Each parameter is defined by its data type and name.
+function body: This is the block of code that performs the specific task of the function.
+return statement: This is an optional statement that returns a value from the function to the calling code.
+
+Example:
+
+    int add(int num1, int num2) {
+    int result = num1 + num2;
+    return result;
+    }
+
+This function is called add, and it takes two integer parameters (num1 and num2). Inside the function, it adds these two values together and stores the result in a variable called result. Finally, the function returns the value of result.
+To use this function in your code, you can simply call it and pass in the appropriate arguments:
+
+    int sum = add(5, 10);
