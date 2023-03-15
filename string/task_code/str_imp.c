@@ -9,6 +9,7 @@ int main()
     // scanf("%[^\n]", str); 
     gets(str);
 
+
     // using string buit-in functions 
     printf("\nLegth: %d\n", strlen(str));
     strcpy(str2, str);
@@ -17,15 +18,15 @@ int main()
     strcat(str, " , meow :p");
     printf("%s\n", str);
     
-    // char str1[] = "abcd";
-    // char str2[] = "abCd";
-    // char str3[] = "abad";
+    char strX[] = "cbcd";
+    char strY[] = "abcd";
+    char strZ[] = "cbcd";
 
-    // int result;
+    int result;
 
     // // comparing strings 
-    // result = strcmp(str1, str2);
-    // printf("strcmp(str1, str2) = %d\n", result);
+    result = strcmp(strX, strZ);
+    printf("\nstrcmp(strX, strY) = %d\n\n", result);
 
     // result = strcmp(str1, str3);
     // printf("strcmp(str1, str2) = %d\n", result);
